@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+        rain       0.98      0.99      0.99       179
+        snow       0.83      0.62      0.71         8
+
+    accuracy                           0.98       187
+   macro avg       0.91      0.81      0.85       187
+weighted avg       0.98      0.98      0.98       187
