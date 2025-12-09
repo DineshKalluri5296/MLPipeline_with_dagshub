@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 dagshub.init(repo_owner='kalluridinesh70', repo_name='MLPipeline_with_dagshub', mlflow=True)
 mlflow.set_tracking_uri("https://dagshub.com/kalluridinesh70/MLPipeline_with_dagshub")
 
-df = pd.read_csv("/content/seattle-weather.csv")
+df = pd.read_csv("seattle-weather.csv")
 df1 = df[df['precipitation'] != 0.0].reset_index(drop=True)
 df2 = df1.drop(columns=["date"])
 
